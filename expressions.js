@@ -14,7 +14,7 @@
 let b = 3;
 let c = 2;
 //There are three expressions in here....can you find them?
-let a= b + c;
+let a = b + c;
 // 1. let a ... (Variable Declaration)
 // 2. Perform an evalutation b + c
 // 3. Result assigned to a

@@ -5,7 +5,7 @@ let x = 7;
 x = 6;
 x = 5;
 x = 4;
-//let x = 8;
+//let X = 8;
 
 let firstNumber = 7
 let secondNumber = 3;

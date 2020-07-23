@@ -9,7 +9,7 @@ var myFunction = function() {
 
 */
 // Never do this! //
-
+/*
 function one() {
     return 'one';
 }
@@ -25,3 +25,23 @@ console.log(value());
 //boolean
 //undefined
 //function
+*/
+/*
+function two() {
+    return function () {
+    console.log('two');
+    }
+}
+
+let myFunction = two();
+myFunction();
+*/
+
+function three() {
+    return function () {
+    return 'three';
+        
+    }
+    
+}
+console.log(three()());

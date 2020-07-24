@@ -5,6 +5,10 @@ function sayHello(name) {
     
 }
 
-let bob = sayHello('bob');
+let bob = sayHello('Bob');
+let conrad = sayHello('Conrad');
+let grant = sayHello('Grant')
 
 bob();
+conrad();
+grant();

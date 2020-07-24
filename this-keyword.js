@@ -15,8 +15,30 @@
 
 car.printDescription(); */
 
-function first() {
+/* function first() {
     return this;
 }
 
-console.log(first() === global);
+console.log(first() === global); */
+/* 
+function second() {
+    'use strict'
+    return this;
+}
+
+console.log(second() === global);
+console.log(second() === undefined); */
+
+let myObject = {value: 'My Object' };
+
+global.value = 'Global object';
+
+function third() {
+    return this.value;
+    
+}
+
+//console.log(third());
+
+console.log(third.call(myObject, 'bob'));
+console.log(third.apply(myObject, ['bob']));

@@ -23,8 +23,12 @@ let car = class {
 } */
 
 class SportsCar extends Car {
-
+    revEngine() {
+        console.log('Vroom goes the ' + this.model);
+    }
 }
 
 let mySportsCar = new SportsCar('dodge', 'viper', 2011);
 mySportsCar.print();
+mySportsCar.revEngine();
+

@@ -1,7 +1,6 @@
-let first = 'Knowledge is power but enthusiasm pulls the switch';
+/* let first = 'Knowledge is power but enthusiasm pulls the switch';
 let second = 'Do or do not. There is no try';
-let third = '4, 8, 15, 16, 23, 42';
-
+let third = '4, 8, 15, 16, 23, 42'; */
 //you can even call methods on string literals
 
 /* console.log('bob loves you'.toUpperCase()); */
@@ -29,3 +28,25 @@ console.log(myRepeat); */
 /* let myTrim = '     bloated      ';
 console.log(myTrim.length);
 console.log(myTrim.trim().length); */
+
+
+
+/* class Wrestler {
+    constructor(name, height, weight, title, state,) {
+    this.name = name;
+    this.height = height;
+    this.weight = weight;
+    this.title = title;
+    this.state = state;
+
+    }
+       
+    print() {
+    console.log(`${this.name} ${this.height} ${this.weight} ${this.title} ${this.state}`);
+    }
+}
+
+let myWrestler = new Wrestler( 'Paul Levesque',  '6 ft 3', 300,  'World Heavyweight Champion',  'USA' );
+myWrestler.print();
+
+ */
